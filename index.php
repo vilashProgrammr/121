@@ -5,6 +5,9 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//This is another stopped instance test
+	//instance wsa stopped after finish test and 
+	//launched again .
 	
 }
 // delete condition
