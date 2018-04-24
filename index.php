@@ -5,6 +5,8 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//This test is launched from AMI instance as 
+	//stopped instance is already in use
 	
 }
 // delete condition
