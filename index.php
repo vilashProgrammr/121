@@ -5,6 +5,12 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//THIS IS ANOTEHR STOPPED INSTANCE TEST
+	//
+	$sql_query="DELETE FROM users WHERE user_id=".$_GET['delete_id'];
+	mysql_query($sql_query);
+	header("Location: $_SERVER[PHP_SELF]");
+	//SEE ITS WORKING...
 	
 }
 // delete condition
