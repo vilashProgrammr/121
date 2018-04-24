@@ -5,6 +5,7 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//This is another stopped instance test on live server
 	
 }
 // delete condition
