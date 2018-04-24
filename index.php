@@ -5,6 +5,8 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//THIS IS LIVE SERVER STOPPED MACHINE TEST
+	//This machine is booted from stopped instance
 	
 }
 // delete condition
