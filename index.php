@@ -5,6 +5,9 @@ include_once 'dbconfig.php';
 if(isset($_GET['delete_id']))
 {
 	//delete logic here
+	//THIS IS dj+31@programmr.com
+	
+	//This is again using stopped instance
 	
 }
 // delete condition
